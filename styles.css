@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+.home-page{
+    height: 95vh;
+    background-image: url('./assets/isis-franca-hsPFuudRg5I-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    color: black;
+}
+
+.custom-navbar{
+    background-color: #9C695E !important;
+    color: #B27443 !important;
+}
+
+.navbar{
+    background: black !important;
+    
+}
+
+.plus{
+    font-size: 2rem !important;
+}
+
+
+button{
+    background-color: black !important;
+    color: white !important;
+}
+
+
+.nav-link, .navbar-brand{
+    color: white !important;
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+}
+
+
+.main > h1{
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+}
+
+.main > p {
+    font-size: 20px;
+    color: white;
+}
+
+/* About section */
+
+.about{
+    height: 100vh;
+}
+
+.about-row-1{
+    padding: 100px 0;
+}
+
+.about-index{
+    color: #79A0BD;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.about-heading{
+    color: grey;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 1.2rem;
+}
+
+.about-subheading{
+    font-size: 24px;
+    color: grey;
+}
+
+.about-text{
+    margin-top: 40px;
+}
+
+.about-button {
+    margin-top: 20px;
+    background: none !important;
+    color: black !important;
+    border: .3px solid lightgray;
+    text-transform: uppercase;
+    padding: 18px 36px;
+    letter-spacing: 2px;
+}
+
+/* Services */
+.services{
+    height: fit-content !important;
+    color: white;
+}
+
+@media screen and (max-width: 400px){
+    .services{
+        height: 100vh;
+        color: white;
+        margin-top: 50vh;
+    }
+    .about-row-1{
+        padding: 50px 0;
+    }
+    .service-row{
+        padding: 50px 0 !important;   
+    }
+}
+
+@media screen and (max-width: 768px){
+   .center{
+       padding-left: 30px;
+   } 
+}
+
+.service-row{
+    padding: 100px 0;   
+}
+
+.service-index{
+    color: #79A0BD;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.service-heading{
+    color: grey;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 1.2rem;
+}
+
+
+
+
+.center > ul > li{
+    list-style-type: square;
+    font-size: 18px;
+}
