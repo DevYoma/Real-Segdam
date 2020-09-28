@@ -197,7 +197,7 @@ button{
 /* Contact us */
 .contact-us{
     padding: 40px 0;
-    height: 100vh;
+    height: fit-content;
     
 }
 
