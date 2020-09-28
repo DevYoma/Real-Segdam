@@ -64,6 +64,7 @@ button{
 
 .about{
     height: 100vh;
+    margin-bottom: 5vh;
 }
 
 .about-row-1{
@@ -89,7 +90,7 @@ button{
 }
 
 .about-text{
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .about-button {
