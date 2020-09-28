@@ -160,7 +160,7 @@ button{
 /* Customers */
 
 .products{
-    height: 100vh;
+    height: fit-content;
 }
 
 .product-row-1{
@@ -180,18 +180,20 @@ button{
     font-size: 1.2rem;
 }
 
-.product-container{
-    background: white;
-    border: 1px solid black;
-    height: 250px;
-    display: flex ;
-    flex-direction: row !important;
-    overflow-x: scroll !important;
+.figure-caption{
+    font-size: 90%;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
 }
 
-.product-list{
-    width: 500px;
-    background: green;
-    margin-right: 5px;
-    display: inline-block;
+/* div > img{
+    margin: 0px 5px 5px 0;
+} */
+
+
+.product-container{
+    
 }
+
