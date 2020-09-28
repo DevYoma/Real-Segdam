@@ -107,7 +107,7 @@ button{
 .services{
     height: fit-content !important;
     color: white;
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
 }
 
 @media screen and (max-width: 400px){
@@ -124,6 +124,9 @@ button{
     }
     .product-row-1{
         padding: 50px 0 !important;
+    }
+    .contact-us{
+        padding-left: 10px !important;
     }
 }
 
@@ -163,6 +166,7 @@ button{
 
 .products{
     height: fit-content;
+    margin-bottom: 10px;
 }
 
 .product-row-1{
@@ -190,12 +194,28 @@ button{
     text-align: center;
 }
 
-/* div > img{
-    margin: 0px 5px 5px 0;
-} */
-
-
-.product-container{
+/* Contact us */
+.contact-us{
+    padding: 40px 0;
+    height: 100vh;
     
+}
+
+
+.contact-index{
+    color: #79A0BD;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contact-heading{
+    color: grey;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 1.2rem;
+}
+
+.contact-row{
+    margin-bottom: 100px !important;
 }
 
