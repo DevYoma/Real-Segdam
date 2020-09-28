@@ -120,6 +120,9 @@ button{
     .service-row{
         padding: 50px 0 !important;   
     }
+    .product-row-1{
+        padding: 50px 0 !important;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -151,4 +154,44 @@ button{
 .center > ul > li{
     list-style-type: square;
     font-size: 18px;
+}
+
+
+/* Customers */
+
+.products{
+    height: 100vh;
+}
+
+.product-row-1{
+    padding: 100px 0;
+}
+
+.product-index{
+    color: #79A0BD;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.product-heading{
+    color: grey;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 1.2rem;
+}
+
+.product-container{
+    background: white;
+    border: 1px solid black;
+    height: 250px;
+    display: flex ;
+    flex-direction: row !important;
+    overflow-x: scroll !important;
+}
+
+.product-list{
+    width: 500px;
+    background: green;
+    margin-right: 5px;
+    display: inline-block;
 }
