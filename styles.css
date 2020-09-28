@@ -106,6 +106,7 @@ button{
 .services{
     height: fit-content !important;
     color: white;
+    margin-top: 10vh;
 }
 
 @media screen and (max-width: 400px){
